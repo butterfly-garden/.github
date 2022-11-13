@@ -6,7 +6,7 @@ Everyone is welcome to work on the project.
 
 ## Communication
 
-Join [Wimpy's World Discord server](https://discord.butterfly-garden.org) where we have a 🦋`#Butterfly` chat channel to discuss the project.
+Join [Wimpy's World Discord server](https://discord.butterfly-garden.org) where we have a 🦋`#Butterfly` channel for project collaboration.
 
 ## Issue policy
 

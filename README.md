@@ -29,9 +29,23 @@ What we've discussed so far is this:
  - See if we can get Butterfly running on Android devices too.
  - Try and become an official Ubuntu flavour by the 24.10 release.
 
-## Technology 🧑‍💻
+## Participate!
 
- - tbc
+Join [Wimpy's World Discord server](https://discord.butterfly-garden.org) where we have a 🦋`#Butterfly` channel for project collaboration.
+
+Before opening an issue, please see the [issue policy](https://github.com/butterfly-garden/.github/blob/main/CONTRIBUTING.md#issue-policy).
+
+A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Technologies 🧑‍💻
+
+While we'd like to implement as much as possible in Flutter and Dart, we need to
+be pragmatic as we bootstrap the project and make good use of existing projects.
+
+ - A display manager/greeter, perhaps [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) or [`lightdm`](https://github.com/canonical/lightdm).
+   - Maybe a daemon manager such as [`pebble`](https://github.com/canonical/pebble).
+ - A Wayland compositor, perhaps [`wayfire`](https://wayfire.org/) or [`Miriway`](https://github.com/Miriway/Miriway).
+ - A session manager and settings daemon, perhaps `gnome-session-manager` and `gnome-settings-daemon`.
 
 ## Milestones 🪨
 
@@ -40,13 +54,15 @@ We are still figuring things out.
 ### One
 
  - Automated builds for development/testing.
- - A display manager, perhaps `lightdm`.
- - A display server.
- - A session manager, perhaps `pebble`.
- - A window manager, perhaps `metacity`.
  - A terminal emulator implemented using Flutter, [`xterm`](https://pub.dev/packages/xterm) and [Yaru Widgets](https://pub.dev/packages/yaru_widgets).
  - A browser, perhaps `chromium`.
 
 ### Two
 
-**E-v-e-r-y-t-h-i-n-g** else 😁
+ - A launcher.
+ - **E-v-e-r-y-t-h-i-n-g** else 😁
+
+## License
+
+Butterfly components are typically licensed under the MPL-2.0 with artwork using
+CC BY-SA 4.0.
