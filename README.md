@@ -35,8 +35,9 @@ Join [Wimpy's World Discord server](https://discord.butterfly-garden.org) where 
 
 Before opening an issue, please see the [issue policy](https://github.com/butterfly-garden/.github/blob/main/CONTRIBUTING.md#issue-policy).
 
-A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md) along with our [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 
+<!--
 ## Technology Stack 🧑‍💻
 
 While we'd like to implement as much as possible in Flutter and Dart, we need to
@@ -76,6 +77,7 @@ We are still figuring things out.
 
  - A launcher.
  - **E-v-e-r-y-t-h-i-n-g** else 😁
+-->
 
 ## License
 
