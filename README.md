@@ -1,14 +1,14 @@
 # Butterfly Garden
 
-This is where we are growing Butterfly 🦋 A graphical environment created with [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/) for Desktop Linux and *maybe* Android.
+This is where we are growing Butterfly 🦋 A graphical environment created with [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/) for Linux workstations and *maybe* Android devices.
 
-At least, that is the vague plan 😄
+At least, that is the rough plan 😄
 
 ## Why? 🤔
 
 We want to have fun 🤡 and make something new ✨
 
-We want to try new ideas, learn new skills, make new mistakes and hopefully create a new way to interface with desktop Linux in the process. This is a project by us, for all us, based on the things we like.
+We want to try new ideas, learn new skills, make new mistakes and hopefully create a new way to interface with Linux workstations in the process. This is a project by us, for all us, based on the things we like.
 
 **And you are most welcome to join the fun and help make something beautiful** 🦋
 
