@@ -37,15 +37,30 @@ Before opening an issue, please see the [issue policy](https://github.com/butter
 
 A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## Technologies 🧑‍💻
+## Technology Stack 🧑‍💻
 
 While we'd like to implement as much as possible in Flutter and Dart, we need to
 be pragmatic as we bootstrap the project and make good use of existing projects.
 
- - A display manager/greeter, perhaps [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) or [`lightdm`](https://github.com/canonical/lightdm).
+### Display manager/greeter
+
+ - Perhaps [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) or [`lightdm`](https://github.com/canonical/lightdm).
    - Maybe a daemon manager such as [`pebble`](https://github.com/canonical/pebble).
- - A Wayland compositor, perhaps [`wayfire`](https://wayfire.org/) or [`Miriway`](https://github.com/Miriway/Miriway).
- - A session manager and settings daemon, perhaps `gnome-session-manager` and `gnome-settings-daemon`.
+
+### Wayland compositor
+
+ - Perhaps [`weston`](https://gitlab.freedesktop.org/wayland/weston) or [`wayfire`](https://wayfire.org/) or [`Miriway`](https://github.com/Miriway/Miriway).
+
+#### Flutter/Dart implementations
+
+ - [Graphical User Interface Using Flutter in Embedded Systems](https://static.sched.com/hosted_files/osseu2020/e0/Oct%2027_Graphical%20User%20Interface%20Using%20Flutter%20in%20Embedded%20Systems_Hidenori%20Matsubayashi.pdf)
+ - <https://github.com/PlayPulseCom/flutter_wlroots>
+ - <https://github.com/csnewman/flutter-compositor>
+   - <https://morioh.com/p/bcda83e605e2>
+
+### Session manager and settings daemon
+
+ - Perhaps `gnome-session-manager` and `gnome-settings-daemon`.
 
 ## Milestones 🪨
 
@@ -64,5 +79,4 @@ We are still figuring things out.
 
 ## License
 
-Butterfly components are typically licensed under the MPL-2.0 with artwork using
-CC BY-SA 4.0.
+Butterfly components are typically licensed under the [MPL-2.0](https://choosealicense.com/licenses/mpl-2.0/) with artwork using [CC BY-SA 4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/).
