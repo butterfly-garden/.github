@@ -22,6 +22,7 @@ What we've discussed so far is this:
 
  - Have fun, learn new skills, try new things and make new friends.
  - Make a graphical shell using Flutter and Dart. *How hard can it be?* 😜
+ - Collaborate with [DahliaOS](https://dahliaos.io/) where ever possible.
  - Adhere to [freedesktop.org specifications](https://www.freedesktop.org/wiki/Specifications/).
  - Use the Yaru [theme](https://pub.dev/packages/yaru), [icons](https://pub.dev/packages/yaru_icons) and [widgets](https://pub.dev/packages/yaru_widgets) for visual consistency.
  - Build an operating system based on Ubuntu called Ubuntu Butterfly (*remix*)
@@ -37,47 +38,18 @@ Before opening an issue, please see the [issue policy](https://github.com/butter
 
 A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md) along with our [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 
-<!--
-## Technology Stack 🧑‍💻
+### Cross Team Communication
 
-While we'd like to implement as much as possible in Flutter and Dart, we need to
-be pragmatic as we bootstrap the project and make good use of existing projects.
+Butterfly can not be successful without the input and assistance of other projects. This is where we can communicate with other teams:
 
-### Display manager/greeter
-
- - Perhaps [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) or [`lightdm`](https://github.com/canonical/lightdm).
-   - Maybe a daemon manager such as [`pebble`](https://github.com/canonical/pebble).
-
-### Wayland compositor
-
- - Perhaps [`weston`](https://gitlab.freedesktop.org/wayland/weston) or [`wayfire`](https://wayfire.org/) or [`Miriway`](https://github.com/Miriway/Miriway).
-
-#### Flutter/Dart implementations
-
- - [Graphical User Interface Using Flutter in Embedded Systems](https://static.sched.com/hosted_files/osseu2020/e0/Oct%2027_Graphical%20User%20Interface%20Using%20Flutter%20in%20Embedded%20Systems_Hidenori%20Matsubayashi.pdf)
- - <https://github.com/PlayPulseCom/flutter_wlroots>
- - <https://github.com/csnewman/flutter-compositor>
-   - <https://morioh.com/p/bcda83e605e2>
-
-### Session manager and settings daemon
-
- - Perhaps `gnome-session-manager` and `gnome-settings-daemon`.
-
-## Milestones 🪨
-
-We are still figuring things out.
-
-### One
-
- - Automated builds for development/testing.
- - A terminal emulator implemented using Flutter, [`xterm`](https://pub.dev/packages/xterm) and [Yaru Widgets](https://pub.dev/packages/yaru_widgets).
- - A browser, perhaps `chromium`.
-
-### Two
-
- - A launcher.
- - **E-v-e-r-y-t-h-i-n-g** else 😁
--->
+ - [DahliaOS Discord](https://dahliaos.io/discord)
+ - [Mir Server IRC](https://web.libera.chat/?channels=#mir-server)
+ - [Ubuntu Desktop IRC](https://web.libera.chat/?channels=#ubuntu-desktop)
+ - [Ubuntu Release IRC](https://web.libera.chat/?channels=#ubuntu-release)
+ - [Yaru Theme GitHub](https://github.com/ubuntu/yaru.dart)
+ - [Yaru Colors GitHub](https://github.com/ubuntu/yaru_colors.dart)
+ - [Yaru Icons GitHub](https://github.com/ubuntu/yaru_icons.dart)
+ - [Yaru Widgets GitHub](https://github.com/ubuntu/yaru_widgets.dart)
 
 ## License
 
