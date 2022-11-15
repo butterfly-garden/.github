@@ -6,7 +6,7 @@ Butterfly is a hobby project developed by volunteers. It is unreleased software 
 - High level summary of the issue and its potential impact
 - Versions affected, if known
 - Technical details and proof of concept, if possible
-- Known mitigation's or workarounds
+- Known mitigations or workarounds
 - Attribution information
 
 Sadly, we do not have the funds to run a Bug Bounty Program 😢
