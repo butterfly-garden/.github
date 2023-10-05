@@ -1,3 +1,7 @@
+# This project is discontinued ☠️
+
+**Due to a change in personal circumstances with the founder of the project, we no longer have the time or motivation to work on Butterfly. If you are interested in a Flutter-based desktop, then take a look at [dahliaOS](https://dahliaos.io/)**
+
 # Butterfly Garden
 
 This is where we are growing Butterfly 🦋 A graphical environment created with [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/) for Linux workstations and *maybe* Android devices.
